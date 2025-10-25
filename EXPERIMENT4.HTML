@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hotel room booking form </title>
+</head>
+<body>
+     <center>
+            <fieldset>
+                <h1>Hotel Room Booking Form</h1>
+              <form action="hotelform.html" method="post">
+                <label for="Name">Full Name:</label>
+                <input type="text" id="Name" name="Name" required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="Number" id="phone" name="phone" required>
+
+                <br><br>
+
+                <label for="checkin">Check-In Date:</label>
+                <input type="date" id="checkin" name="checkin" required>
+
+                <br><br>
+
+                <label for="checkout">Check-Out Date:</label>
+                <input type="date" id="checkout" name="checkout" required>
+
+                <br><br>
+
+                <label for="roomtype">Room Type:</label>
+                <select id="roomtype" name="roomtype" required>
+                    <option value="SINGLE">Single Room</option>
+                    <option value="DOUBLE">Double Room</option>
+                    <option value="FAIMLY">Faimly Room</option>
+                    <option value="LUXURY">Luxury Room</option>
+                </select>
+
+                <br><br>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="10" required>
+                
+                            
+                <br><br>
+
+                <label for="requests">Special Requests:</label>
+                
+                <br>
+
+                <textarea id="requests" name="requests" rows="4" cols="35">
+                </textarea>
+                
+                <br><br>
+
+               <input type="submit" value="Book Now"/>
+               <input type="reset" value="Reset Form"/>
+              </form>
+            </fieldset>
+        </form>
+    </center>
+
+    <h3> Name - Mayank Kotuli <br>
+    Admission Number - 2025B01010537
+</h3>
+
+
+</body>
+</html>
