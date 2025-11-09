@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>HOTEL ROOM BOOKING FORM</title>
+</head>
+<body>
+<H1 ALIGN="CENTER">HOTEL ROOM BOOKING FORM</H1>
+<FORM ACTION="#" method="post" ALIGN="CENTER">
+<LABEL for="full name">FULL NAME:</LABEL>
+<input type="text" id="full name" name="full name" required>
+<br><br>
+<LABEL for="email">E MAIL:</LABEL>
+<input type="email" id="email" name="email" required>
+<br><br>
+<LABEL for="phone">PHONE:</LABEL>
+<input type="tel" id="phone" name="phone" required>
+<br><br>
+<LABEL for="check-in">CHECK-IN DATE:</LABEL>
+<input type="date" id="check-in" name="check-in" required>
+<br><br>
+<LABEL for="checkout">CHECK-OUT DATE:</LABEL>
+<input type="date" id="checkout" name="checkout" required>
+<br><br>
+<LABEL for="guests">ROOM TYPE:</LABEL>
+<SELECT id="room" name="ROOM">
+<Option value="SINGLE">SINGLE ROOM</Option>
+<Option value="DOUBLE">DOUBLE ROOM</Option>
+<Option value="DELUXE">DELUXE ROOM</Option>
+<Option value="SUITE">SUITE</Option>
+</SELECT>
+<br><br>
+<label for="guests">NUMBER OF GUESTS:</label>
+<input type="number" id="guests" name="guests" min="1" max="10">
+<br><br>
+<LABEL for="REQUESTS">SPECIAL REQUESTS:</LABEL><BR>
+<TEXT area ID="REQUESTS" NAME="REQUESTS" ROWS="4" cols="40"></TEXT area><BR><BR>
+<Input TYPE="SUBMIT" VALUE="BOOK NOW"> 
+<Input type="RESET" VALUE="RESET FORM">
+</FORM>
+</body>
+</html>
